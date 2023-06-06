@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
 
         features="src/test/resources",
         glue= {"stepdefinitions","hooks"},//step defi nin adini yaziyoruz
-        tags= "@api",//calisacak senaryolari belirtir
+        tags= "@e2e",//calisacak senaryolari belirtir
         dryRun= false //bunu true yaparsak "eksik step definitionslari arar"
 )
 

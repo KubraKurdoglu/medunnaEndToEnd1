@@ -39,6 +39,9 @@ public class MedunnaRoomPage {
     @FindBy(xpath = "//tbody//td[2]")
     public List<WebElement> roomNumberlist;
 
-    @FindBy(xpath = "//tbody/tr[1]/td[1]")
+    @FindBy(xpath = "//tbody/tr[1]/td[1]]")
     public WebElement fistId;
+
+    @FindBy(xpath = "//div[@role='alert']")
+    public WebElement alert;
 }

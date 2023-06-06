@@ -24,4 +24,4 @@ Feature: Medunna Room Creation
     And close the application
     Examples:
       | room_number | price | description                 |
-      | 72244940    | 123   | tarikium hocanin kodlari ile oynama:)|
+      | 72244940    | 123   | Created For End To End Test|
